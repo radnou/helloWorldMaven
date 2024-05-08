@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.rmoss.app.AppTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.rmoss.app.AppTest
-shouldAnswerWithFalse(com.rmoss.app.AppTest)  Time elapsed: 0.003 s  <<< FAILURE!
-java.lang.AssertionError
-	at com.rmoss.app.AppTest.shouldAnswerWithFalse(AppTest.java:23)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.rmoss.app.AppTest

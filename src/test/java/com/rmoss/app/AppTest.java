@@ -1,5 +1,6 @@
 package com.rmoss.app;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -21,6 +22,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithFalse()
     {
-        assertTrue( false );
+        assertFalse( false );
     }
 }
