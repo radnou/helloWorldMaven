@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rmoss.app.AppTest" time="0.015" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rmoss.app.AppTest" time="0.032" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire/surefirebooter9800616338374648440.jar /Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire 2024-05-08T18-20-10_716-jvmRun1 surefire16711650261056967804tmp surefire_04791768028772278562tmp"/>
+    <property name="sun.java.command" value="/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire/surefirebooter357391718381924795.jar /Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire 2024-05-08T18-44-14_913-jvmRun1 surefire13449327509283305815tmp surefire_011302809036246906842tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/test-classes:/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/classes:/Users/radnoumanemossabely/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/radnoumanemossabely/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire/surefirebooter9800616338374648440.jar"/>
+    <property name="surefire.real.class.path" value="/Users/radnoumanemossabely/Projets/99_repositories/my-app/target/surefire/surefirebooter357391718381924795.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3"/>
     <property name="user.name" value="radnoumanemossabely"/>
@@ -55,5 +55,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.rmoss.app.AppTest" time="0.003"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.rmoss.app.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithFalse" classname="com.rmoss.app.AppTest" time="0.003">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at com.rmoss.app.AppTest.shouldAnswerWithFalse(AppTest.java:23)
+</failure>
+  </testcase>
 </testsuite>
